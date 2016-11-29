@@ -52,8 +52,8 @@ rm -r /tmp/3e56614d999948a98e0bf6f115e53154/
 ```
 
 # TODO 
- [ ] Automaticaly detect similar scenes in on the images and create multiple animations story
- [ ] Customize delay  via commandline
- [ ] Customize backward loop creation via commandline 
- [ ] Drag and drop
- [ ] --dir option to create animation from dir with images and automaticaly create output in corresponding directory 
+ - [ ] Automaticaly detect similar scenes in on the images and create multiple animations story
+ - [ ] Customize delay  via commandline
+ - [ ] Customize backward loop creation via commandline 
+ - [ ] Drag and drop
+ - [ ] -dir option to create animation from dir with images and automaticaly create output in corresponding directory 
