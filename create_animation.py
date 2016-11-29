@@ -55,23 +55,3 @@ command("rm -r {}".format(workdir))
 
 if (args.create_script):
 	script_file.close()
-# path_to_anim = "/home/alex/Pictures/100D3000/anim2"
-# from os import listdir, system
-# from os.path import isfile, join
-# onlyfiles = [f for f in listdir(path_to_anim) if isfile(join(path_to_anim, f))]
-# reverse_files = sorted(onlyfiles, reverse=True)
-# for i in range(len(onlyfiles)):
-# 	print (onlyfiles[i], reverse_files[i])
-# system("mkdir {}".format(path_to_anim + "/sorted"))
-# index = 1
-# for x in onlyfiles:
-# 	command = "cp {} {}".format(path_to_anim+"/" +x, path_to_anim + "/sorted/" + str(index)+".JPG")
-# 	print(command)
-# 	system(command)
-# 	index +=1
-
-# for x in reverse_files	:
-# 	command = "cp {} {}".format(path_to_anim+"/" +x, path_to_anim + "/sorted/" + str(index)+".JPG")
-# 	print(command)
-# 	system(command)
-# 	index +=1
